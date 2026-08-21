@@ -28,7 +28,7 @@ Mi trabajo se concentra en tres cosas: modelar el aislamiento de datos entre org
 <td align="center" valign="top" width="50%">organizaciones en piloto sobre ZenithControl, mi plataforma SaaS multi-tenant</td>
 </tr>
 <tr>
-<td align="center" valign="top" width="50%"><h3>+200</h3></td>
+<td align="center" valign="top" width="50%"><h3>+500</h3></td>
 <td align="center" valign="top" width="50%"><h3>2</h3></td>
 </tr>
 <tr>
