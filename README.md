@@ -20,7 +20,7 @@ Mi trabajo se concentra en tres cosas: modelar el aislamiento de datos entre org
 <div align="center">
 <table>
 <tr>
-<td align="center" valign="top" width="50%"><h3>165.000</h3></td>
+<td align="center" valign="top" width="50%"><h3>+165.000</h3></td>
 <td align="center" valign="top" width="50%"><h3>6</h3></td>
 </tr>
 <tr>
