@@ -24,16 +24,20 @@ Mi trabajo se concentra en tres cosas: modelar el aislamiento de datos entre org
 <div align="center">
 <table>
 <tr>
-<td align="center" valign="top" width="25%"><h3>165.000</h3></td>
-<td align="center" valign="top" width="25%"><h3>6</h3></td>
-<td align="center" valign="top" width="25%"><h3>+200</h3></td>
-<td align="center" valign="top" width="25%"><h3>2</h3></td>
+<td align="center" valign="top" width="50%"><h3>165.000</h3></td>
+<td align="center" valign="top" width="50%"><h3>6</h3></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="25%">fichas procesadas por un motor de deduplicación propio sobre Odoo 18, con cero pérdida de datos</td>
-<td align="center" valign="top" width="25%">organizaciones en piloto sobre ZenithControl, mi plataforma SaaS multi-tenant</td>
-<td align="center" valign="top" width="25%">estudiantes formados en backend, bases de datos y diseño de APIs</td>
-<td align="center" valign="top" width="25%">aplicaciones móviles publicadas en Google Play y App Store</td>
+<td align="center" valign="top" width="50%">fichas procesadas por un motor de deduplicación propio sobre Odoo 18, con cero pérdida de datos</td>
+<td align="center" valign="top" width="50%">organizaciones en piloto sobre ZenithControl, mi plataforma SaaS multi-tenant</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%"><h3>+200</h3></td>
+<td align="center" valign="top" width="50%"><h3>2</h3></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">estudiantes formados en backend, bases de datos y diseño de APIs</td>
+<td align="center" valign="top" width="50%">aplicaciones móviles publicadas en Google Play y App Store</td>
 </tr>
 </table>
 </div>
@@ -55,7 +59,7 @@ Mi trabajo se concentra en tres cosas: modelar el aislamiento de datos entre org
 </td>
 </tr>
 <tr>
-<td><b>Frontend y móvil</b></td>
+<td><b>Frontend</b></td>
 <td>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
 <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white">
@@ -65,7 +69,7 @@ Mi trabajo se concentra en tres cosas: modelar el aislamiento de datos entre org
 </td>
 </tr>
 <tr>
-<td><b>Datos e infraestructura</b></td>
+<td><b>Datos e infra</b></td>
 <td>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
@@ -96,7 +100,7 @@ Mi trabajo se concentra en tres cosas: modelar el aislamiento de datos entre org
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### ZenithControl
 
@@ -107,7 +111,7 @@ Plataforma **ERP/CRM SaaS multi-tenant**: ventas, inventario, contabilidad, RRHH
 <a href="https://zenithcontrol.net"><img src="https://img.shields.io/badge/Sitio_web-1B1F23?style=flat-square&logo=googlechrome&logoColor=white"></a>
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### InterOceánica
 
@@ -116,7 +120,9 @@ Plataforma **ERP/CRM SaaS multi-tenant**: ventas, inventario, contabilidad, RRHH
 `Python` `Odoo 18` `PostgreSQL`
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### Obertrack
 
@@ -127,9 +133,7 @@ Plataforma de **seguimiento y gestión de trabajo remoto**, con pizarra dinámic
 <a href="https://obertrack.com"><img src="https://img.shields.io/badge/Sitio_web-1B1F23?style=flat-square&logo=googlechrome&logoColor=white"></a>
 
 </td>
-</tr>
-<tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### Afoapp
 
@@ -141,7 +145,9 @@ Gestión de **miembros, pagos y eventos** para una asociación de danza folklór
 <a href="https://apps.apple.com/pe/app/afoapp/id6762313979"><img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"></a>
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### Prensa Abierta
 
@@ -153,7 +159,7 @@ Gestión de **miembros, pagos y eventos** para una asociación de danza folklór
 <a href="https://apps.apple.com/us/app/prensa-abierta/id6796072783"><img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"></a>
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### Grow Your Publishing
 
@@ -188,12 +194,10 @@ También: **SICA** — sistema de gestión para una academia de idiomas en Espa�
 
 ## Formación
 
-<table>
-<tr><td><b>Ingeniería en Informática</b></td><td>UPTAIET · incluye TSU en Informática (2022)</td></tr>
-<tr><td><b>Ingeniería de Sistemas</b></td><td>Universidad Politécnica Santiago Mariño · cursada en paralelo</td></tr>
-<tr><td><b>Ciberseguridad</b></td><td>Certificación CISCO</td></tr>
-<tr><td><b>Componente Docente</b></td><td>Formación pedagógica · mentor técnico universitario 2023–2026</td></tr>
-</table>
+- **Ingeniería en Informática** — UPTAIET · incluye TSU en Informática (2022)
+- **Ingeniería de Sistemas** — Universidad Politécnica Santiago Mariño · cursada en paralelo
+- **Ciberseguridad** — Certificación CISCO
+- **Componente Docente** — Formación pedagógica · mentor técnico universitario 2023–2026
 
 <br>
 
