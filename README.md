@@ -5,7 +5,7 @@
 Ing. en Informática · Ing. en Sistemas &nbsp;|&nbsp; Valencia, Venezuela
 
 <a href="https://linkedin.com/in/osvell-chacon"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://drive.google.com/file/d/1SB3nFrNlGq4rWM1oTYURPRH4DuLPRBfo/view?usp=sharing"><img src="https://img.shields.io/badge/Currículum-2F3437?style=flat-square&logo=readdotcv&logoColor=white" alt="CV"></a>
+<a href="https://drive.google.com/file/d/1MbMmbQCqXMxn3bHJ2s8AqvK679rBiDk3/view"><img src="https://img.shields.io/badge/Currículum-2F3437?style=flat-square&logo=readdotcv&logoColor=white" alt="CV"></a>
 <a href="https://zenithcontrol.net"><img src="https://img.shields.io/badge/ZenithControl-4A5568?style=flat-square&logo=googlechrome&logoColor=white" alt="ZenithControl"></a>
 <a href="mailto:carlos.osvell@gmail.com"><img src="https://img.shields.io/badge/Email-4A5568?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 
