@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Osvell Chacón — SaaS Architect · Plataformas ERP/CRM multi-tenant" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img src="assets/header-dark.svg" alt="Osvell Chacón — SaaS Architect · Plataformas ERP/CRM multi-tenant" width="100%">
+</picture>
 
 Ing. en Informática · Ing. en Sistemas &nbsp;|&nbsp; Valencia, Venezuela
 
