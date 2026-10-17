@@ -5,7 +5,7 @@
 Ing. en Informática · Ing. en Sistemas &nbsp;|&nbsp; Valencia, Venezuela
 
 <a href="https://linkedin.com/in/osvell-chacon"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://drive.google.com/file/d/1ZvjhbJb9cA0DWiuNNg_QbnbBGqNU0ryC/view"><img src="https://img.shields.io/badge/Currículum-2F3437?style=flat-square&logo=readdotcv&logoColor=white" alt="CV"></a>
+<a href="assets/Osvell-Chacon-CV.pdf"><img src="https://img.shields.io/badge/Currículum-2F3437?style=flat-square&logo=readdotcv&logoColor=white" alt="CV"></a>
 <a href="https://zenithcontrol.net"><img src="https://img.shields.io/badge/ZenithControl-4A5568?style=flat-square&logo=googlechrome&logoColor=white" alt="ZenithControl"></a>
 <a href="mailto:carlos.osvell@gmail.com"><img src="https://img.shields.io/badge/Email-4A5568?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 
@@ -21,19 +21,19 @@ Mi trabajo se concentra en tres cosas: modelar el aislamiento de datos entre org
 <table>
 <tr>
 <td align="center" valign="top" width="50%"><h3>+165.000</h3></td>
+<td align="center" valign="top" width="50%"><h3>+25.000</h3></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">registros procesados por un motor de deduplicación propio sobre Odoo 18, con cero pérdida de datos</td>
+<td align="center" valign="top" width="50%">empresas incorporadas al CRM por un motor de captación con scraping propio</td>
+</tr>
+<tr>
 <td align="center" valign="top" width="50%"><h3>6</h3></td>
-</tr>
-<tr>
-<td align="center" valign="top" width="50%">fichas procesadas por un motor de deduplicación propio sobre Odoo 18, con cero pérdida de datos</td>
-<td align="center" valign="top" width="50%">organizaciones en piloto sobre ZenithControl, mi plataforma SaaS multi-tenant</td>
-</tr>
-<tr>
-<td align="center" valign="top" width="50%"><h3>+500</h3></td>
 <td align="center" valign="top" width="50%"><h3>2</h3></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="50%">estudiantes formados en backend, bases de datos y diseño de APIs</td>
-<td align="center" valign="top" width="50%">aplicaciones móviles publicadas en Google Play y App Store</td>
+<td align="center" valign="top" width="50%">organizaciones en piloto sobre ZenithControl, mi plataforma SaaS multi-tenant</td>
+<td align="center" valign="top" width="50%">aplicaciones móviles publicadas en Google Play y App Store, con más de 1.000 descargas cada una</td>
 </tr>
 </table>
 </div>
@@ -52,13 +52,13 @@ Mi trabajo se concentra en tres cosas: modelar el aislamiento de datos entre org
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white">
 <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white">
 <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white">
+<img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white">
 </td>
 </tr>
 <tr>
-<td><b>Frontend</b></td>
+<td><b>Frontend y móvil</b></td>
 <td>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
-<img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white">
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
 <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white">
 <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
@@ -76,17 +76,18 @@ Mi trabajo se concentra en tres cosas: modelar el aislamiento de datos entre org
 </td>
 </tr>
 <tr>
-<td><b>Plataformas</b></td>
+<td><b>Plataformas e IA</b></td>
 <td>
 <img src="https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white">
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white">
+<img src="https://img.shields.io/badge/WhatsApp_Business_API-25D366?style=flat-square&logo=whatsapp&logoColor=white">
 <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white">
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </td>
 </tr>
 <tr>
 <td><b>Arquitectura</b></td>
-<td>SaaS multi-tenant · diseño de APIs · integraciones ERP/CRM · seguridad por organización · CI/CD</td>
+<td>SaaS multi-tenant · diseño de APIs · integraciones ERP/CRM · agentes y LLM en producción · seguridad por organización · CI/CD</td>
 </tr>
 </table>
 
@@ -100,18 +101,18 @@ Mi trabajo se concentra en tres cosas: modelar el aislamiento de datos entre org
 
 ### ZenithControl
 
-Plataforma **ERP/CRM SaaS multi-tenant**: ventas, inventario, contabilidad, RRHH, analítica y auditoría. Producto propio, de la arquitectura al pipeline de CI/CD.
+Plataforma **ERP/CRM SaaS multi-tenant**: ventas, inventario, contabilidad, RRHH, analítica y auditoría. Producto propio, de la arquitectura al pipeline de CI/CD. Procesamiento asíncrono con Celery y Redis, API en REST y GraphQL, y paneles en tiempo real con WebSockets.
 
-`Django` `React` `PostgreSQL`
+`Django` `React` `PostgreSQL` `Redis` `Celery`
 
 <a href="https://zenithcontrol.net"><img src="https://img.shields.io/badge/Sitio_web-1B1F23?style=flat-square&logo=googlechrome&logoColor=white"></a>
 
 </td>
 <td width="50%" valign="top">
 
-### InterOceánica
+### InterOceánica — Motor de deduplicación
 
-**Motor de deduplicación** sobre un CRM en Odoo 18: fusión de fichas duplicadas con cero pérdida de datos, archivado reversible y tareas programadas sobre 165.000 registros, con ~130 pruebas automatizadas.
+**Fusión de fichas duplicadas** en un CRM sobre Odoo 18: 21.700 registros consolidados y 30.000 duplicados archivados sobre una base de 165.000, con cero pérdida de datos, archivado reversible y más de 120 pruebas automatizadas.
 
 `Python` `Odoo 18` `PostgreSQL`
 
@@ -120,20 +121,51 @@ Plataforma **ERP/CRM SaaS multi-tenant**: ventas, inventario, contabilidad, RRHH
 <tr>
 <td width="50%" valign="top">
 
+### InterOceánica — IA sobre conversaciones comerciales
+
+Módulo de **análisis de conversaciones con LLM** integrado al CRM: califica cada interacción entre asesora y cliente, identifica el punto en que se pierde la venta, sugiere respuestas durante la conversación y deriva a capacitación los casos con errores recurrentes. Incluye un módulo de reclutamiento que evalúa candidatos con filtros ATS.
+
+`Python` `Odoo 18` `LLM`
+
+</td>
+<td width="50%" valign="top">
+
+### InterOceánica — WhatsApp y captación de leads
+
+**Canal de WhatsApp integrado al CRM** con Evolution API: las asesoras gestionan sus conversaciones desde Odoo y la dirección conserva la trazabilidad completa del canal. Motor de captación con Apify, Google Maps y un scraper propio que incorporó más de 25.000 empresas.
+
+`Python` `Odoo 18` `Apify`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### Obertrack
 
-Plataforma de **seguimiento y gestión de trabajo remoto**, con pizarra dinámica de tareas y flujos de trabajo. Módulos y APIs REST.
+Plataforma de **seguimiento y gestión de trabajo remoto**, con pizarra dinámica de tareas, flujos de trabajo y puente de login SSO. Módulos y APIs REST en Go. En uso por 541 usuarios activos y 164 empresas registradas.
 
-`Django` `React`
+`Go` `React` `APIs REST`
 
 <a href="https://obertrack.com"><img src="https://img.shields.io/badge/Sitio_web-1B1F23?style=flat-square&logo=googlechrome&logoColor=white"></a>
 
 </td>
 <td width="50%" valign="top">
 
+### Factux — Migración de backend
+
+**ERP financiero** para empresas españolas integrado con Verifactu, el sistema de facturación verificable de la Agencia Tributaria. Migración del backend de Supabase a una arquitectura propia en Django, a partir de una auditoría de seguridad y rendimiento.
+
+`Django` `Supabase` `PostgreSQL`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### Afoapp
 
-Gestión de **miembros, pagos y eventos** para una asociación de danza folklórica en Perú. Solución web y móvil liderada end to end, publicada en ambas tiendas.
+Gestión de **miembros, pagos y eventos** para una asociación de danza folklórica en Perú. Solución web y móvil liderada end to end, con más de 1.000 descargas en ambas tiendas.
 
 `Flutter` `Django` `React`
 
@@ -141,13 +173,11 @@ Gestión de **miembros, pagos y eventos** para una asociación de danza folklór
 <a href="https://apps.apple.com/pe/app/afoapp/id6762313979"><img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"></a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### Prensa Abierta
 
-**Aplicación móvil de prensa** y contenido informativo, desde la arquitectura de la app hasta su integración con los servicios backend. Publicada en ambas tiendas.
+**Aplicación móvil de prensa** y contenido informativo, desde la arquitectura de la app hasta su integración con los servicios backend. Más de 1.000 descargas y puesto 57 en la categoría Magazines & Newspapers de App Store.
 
 `Flutter`
 
@@ -155,19 +185,10 @@ Gestión de **miembros, pagos y eventos** para una asociación de danza folklór
 <a href="https://apps.apple.com/us/app/prensa-abierta/id6796072783"><img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"></a>
 
 </td>
-<td width="50%" valign="top">
-
-### Grow Your Publishing
-
-**Campañas automatizadas de ventas** sobre Amazon Ads, con integración de APIs externas y dashboards de métricas publicitarias en tiempo real.
-
-`Django` `React`
-
-</td>
 </tr>
 </table>
 
-También: **SICA** — sistema de gestión para una academia de idiomas en España, con automatización de procesos académicos y manejo de datos sensibles (`Django`).
+También: **Grow Your Publishing** — campañas automatizadas de ventas sobre Amazon Ads con dashboards de métricas en tiempo real (`Django` `React`) · **Zentral** — auditoría de seguridad del panel operador multi-tenant de un ERP (`Python` `PostgreSQL`) · **SICA** — sistema de gestión para una academia de idiomas en España, con manejo de datos sensibles (`Django`).
 
 > [!NOTE]
 > Buena parte de mi trabajo es privado o está bajo acuerdo de confidencialidad. En los repos marcados como *case study* documento la arquitectura y las decisiones técnicas sin exponer código propietario.
@@ -176,24 +197,26 @@ También: **SICA** — sistema de gestión para una academia de idiomas en Espa�
 
 ## Cómo trabajo
 
-**Prefiero las decisiones reversibles.** Al fusionar 165.000 fichas duplicadas, el diseño archiva los registros absorbidos en lugar de borrarlos: esquiva el borrado en cascada de las relaciones dependientes y deja la operación deshacible. Un error a esa escala no debería ser definitivo.
+**Prefiero las decisiones reversibles.** Al fusionar fichas duplicadas sobre una base de 165.000 registros, el diseño archiva los registros absorbidos en lugar de borrarlos: esquiva el borrado en cascada de las relaciones dependientes y deja la operación deshacible. Un error a esa escala no debería ser definitivo.
 
 **Automatizo lo que se repite, y mido lo que cuesta.** La digitalización y carga de expedientes físicos en una oficina donde hice pasantías exigía respetar una estructura de carpetas normativa y tomaba cerca de una semana de trabajo manual por lote. Construí el proceso que hace lo mismo en un clic y en menos de cinco segundos, con el formato exigido intacto. Ese criterio lo apliqué después a varios procesos administrativos de la misma oficina.
+
+**La IA sirve cuando toma decisiones que alguien tenía que tomar a mano.** El módulo que analiza conversaciones comerciales no resume: califica, detecta dónde se rompió la venta y decide cuándo una asesora necesita capacitación. Un modelo sin una decisión detrás es una demo.
 
 **Mantenibilidad antes que entrega rápida.** El código que escribo lo va a heredar alguien más, y normalmente ese alguien no tiene contexto. Diseño pensando en ese momento.
 
 **Lo primero que hago con un sistema heredado es entenderlo.** Recibí un CRM en producción repartido en cuatro repositorios sin documentación; antes de tocar una línea entregué un informe de diagnóstico con los riesgos ordenados por criticidad.
 
-**El criterio se forma en el equipo, no solo en el código.** Rediseñé el proceso de selección técnica de desarrolladores para evaluar criterio de arquitectura en lugar de sintaxis, y definí los estándares de desarrollo del departamento que dirijo.
+**El criterio se forma en el equipo, no solo en el código.** Rediseñé el proceso de selección técnica de desarrolladores para evaluar criterio de arquitectura en lugar de sintaxis, y definí los estándares de desarrollo del departamento que dirijo. Acompañé a más de 500 estudiantes como mentor técnico universitario, 200 de ellos en formación estructurada en backend, bases de datos y diseño de APIs.
 
 <br>
 
 ## Formación
 
-- **Ingeniería en Informática** — UPTAIET · incluye TSU en Informática (2022)
-- **Ingeniería de Sistemas** — Universidad Politécnica Santiago Mariño · cursada en paralelo
-- **Ciberseguridad** — Certificación CISCO
-- **Componente Docente** — Formación pedagógica · mentor técnico universitario 2023–2026
+- **Ingeniería en Informática** — UPTAIET · dic. 2020 – ago. 2024 · incluye TSU en Informática (2022)
+- **Ingeniería de Sistemas** — Instituto Universitario Politécnico Santiago Mariño · dic. 2020 – ago. 2025 · cursada en paralelo
+- **Ciberseguridad** — Cisco Networking Academy (2023)
+- **Componente Docente** — UPTAIET (2024) · formación pedagógica para docencia universitaria
 
 <br>
 
