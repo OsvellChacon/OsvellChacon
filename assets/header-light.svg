@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Osvell Chacón — SaaS Architect, plataformas ERP/CRM multi-tenant">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="#FFFFFF" stroke="#D0D7DE"/>
+
+  <!-- ===== Diagrama: tenants aislados -> núcleo multi-tenant -> datos ===== -->
+  <g>
+    <!-- conectores tenant -> núcleo -->
+    <g fill="none" stroke="#AFB8C1" stroke-width="1.5">
+      <path d="M804 78 C842 78 842 144 872 144"/>
+      <path d="M804 122 C842 122 842 144 872 144"/>
+      <path d="M804 166 C842 166 842 144 872 144"/>
+      <path d="M804 210 C842 210 842 144 872 144"/>
+    </g>
+    <!-- conector núcleo -> datos -->
+    <path d="M1000 144 L1040 144" fill="none" stroke="#1A7F64" stroke-width="1.5"/>
+
+    <!-- tenants -->
+    <g>
+      <rect x="700" y="60" width="104" height="36" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
+      <rect x="712" y="73" width="10" height="10" rx="2" fill="#1A7F64" opacity="0.85"/>
+      <text class="mono" x="732" y="82" font-size="12" fill="#57606A">org_01</text>
+
+      <rect x="700" y="104" width="104" height="36" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
+      <rect x="712" y="117" width="10" height="10" rx="2" fill="#1A7F64" opacity="0.65"/>
+      <text class="mono" x="732" y="126" font-size="12" fill="#57606A">org_02</text>
+
+      <rect x="700" y="148" width="104" height="36" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
+      <rect x="712" y="161" width="10" height="10" rx="2" fill="#1A7F64" opacity="0.45"/>
+      <text class="mono" x="732" y="170" font-size="12" fill="#57606A">org_03</text>
+
+      <rect x="700" y="192" width="104" height="36" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
+      <rect x="712" y="205" width="10" height="10" rx="2" fill="#1A7F64" opacity="0.28"/>
+      <text class="mono" x="732" y="214" font-size="12" fill="#57606A">org_n</text>
+    </g>
+
+    <!-- núcleo -->
+    <rect x="872" y="116" width="128" height="56" rx="8" fill="#EAF6F1" stroke="#1A7F64"/>
+    <text class="mono" x="936" y="140" font-size="13" font-weight="600" fill="#1A7F64" text-anchor="middle">core</text>
+    <text class="mono" x="936" y="158" font-size="10.5" fill="#3F8C76" text-anchor="middle">multi-tenant</text>
+
+    <!-- base de datos -->
+    <g fill="#F6F8FA" stroke="#D0D7DE">
+      <path d="M1046 126 v36 a36 10 0 0 0 72 0 v-36 z"/>
+      <ellipse cx="1082" cy="126" rx="36" ry="10"/>
+    </g>
+    <ellipse cx="1082" cy="126" rx="36" ry="10" fill="none" stroke="#AFB8C1"/>
+    <text class="mono" x="1082" y="195" font-size="11" fill="#57606A" text-anchor="middle">PostgreSQL</text>
+
+    <!-- etiqueta del esquema -->
+    <text class="mono" x="700" y="252" font-size="10.5" fill="#8C959F">aislamiento de datos por organización</text>
+  </g>
+
+  <!-- ===== Identidad ===== -->
+  <text class="mono" x="64" y="128" font-size="54" font-weight="600" letter-spacing="5" fill="#1F2328">OSVELL CHACÓN</text>
+  <rect x="66" y="152" width="76" height="3" rx="1.5" fill="#1A7F64"/>
+  <text class="sans" x="64" y="200" font-size="25" font-weight="600" fill="#1F2328">SaaS Architect</text>
+  <text class="sans" x="64" y="234" font-size="21" fill="#57606A">Plataformas ERP/CRM multi-tenant</text>
+</svg>
